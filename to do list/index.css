@@ -1,0 +1,59 @@
+body{
+    background-color: green;
+    text-align: center;
+}
+.todo-wrapper{
+    text-align: left;
+    background-color: white;
+    border-radius: 10px;
+margin: 100px;
+padding: 100px;
+
+
+}
+p{
+    font-style: italic;
+}
+h2{
+   font-size: larger;
+   
+}
+
+#clear-completed-button{
+    background-color: skyblue;
+    color:white;
+    border-radius: 10px;
+}
+.pretty-button{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+#empty-button{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+
+#save-button{
+    background-color: green;
+    color: white;
+    border-radius:10px ;
+}
+#add-button{
+    border-radius: 10px;
+    background-color: skyblue;
+    
+}
+.todo-wrapper .completed{
+    text-decoration: line-through;
+    color: grey
+}
+
+.todo-wrapper form{
+    display: inline-block;
+}
+.todo-wrapper input{
+    width: 400px;
+}

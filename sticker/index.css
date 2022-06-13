@@ -1,0 +1,35 @@
+body{
+    background: white;
+    border: 2px black solid;
+    text-align: center;
+}
+
+.sticker{
+    display: inline-block;
+vertical-align: top;
+text-align: center;
+margin: 5px;
+background: linear-gradient(red,blue);
+border-radius: 10px;
+padding: 5px 10px;
+}
+
+#web{
+    font-size: 40px;
+    font-family: Impact;
+    text-shadow: 4px 4px grey;
+    background: radial-gradient(yellow, red, orange);
+    padding: 30px;
+    border-radius: 100px;
+}
+
+
+
+#coding{
+    font: weight 60px; ;
+    font-size: bold 50px;
+    color: red;
+background: conic-gradient(blue,magenta,purple)
+
+;
+}

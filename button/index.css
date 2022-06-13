@@ -1,0 +1,22 @@
+
+body{
+    background: white;
+  
+  
+}
+
+.title{
+    display: inline-block;
+    border: solid 5px;
+    
+    padding: 10px;
+    background-color:linear-gradient(red,blue);
+}
+
+body{
+
+    background-image: url(800px-Shiba_Inu.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}

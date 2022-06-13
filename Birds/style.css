@@ -1,0 +1,45 @@
+body{
+    background-image: url(pexels-pixabay-531880.jpg);
+    color: lime;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: darkcyan;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1:hover{
+    cursor: pointer;
+}
+nav ul{
+    background-color: tomato;
+    border-style: solid;
+    border-color: aquamarine;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: papayawhip;
+}
+img{
+    border-radius: 20px;
+    border-style: dashed;
+    border-color: tomato;
+    border-width: 10px;
+cursor: pointer;
+}
+th{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+td{
+    margin-right: 5px;
+    margin-left: 5px;
+}

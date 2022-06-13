@@ -1,0 +1,105 @@
+body{
+    background-color: #9f80ff;
+    font-family: "Lato", sans-serif;
+    color: purple;
+}
+
+h1{
+    color: cornsilk;
+
+}
+
+nav ul{
+    background-color: tomato;
+    border: 2px mediumvioletred;
+    padding: 10px;
+    border-radius: 10px ;
+   
+   
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    color: papayawhip;
+    margin: 0 10px;
+    
+    
+  
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: brown;
+}
+
+article{
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+section {
+    border-top: 2px solid #F5fffa;
+    padding: 10px;
+}
+
+.mediumPics{
+    width: 200px;
+    border-radius: 10px;
+}
+
+#frontPage{
+    background: linear-gradient(to right, #87cefa, #c1ebec);
+}
+
+#welcomeText{
+    animation-name: green-pulse;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+}
+
+
+
+#imgTito{
+    border-radius: 50%;
+    width: 100px;
+}
+
+p{
+    background-color: tomato;
+    border-radius: 10px ;
+    color: white;
+    padding: 10px;
+   
+}
+
+
+#imgTito:hover{
+    animation-name: rollOver;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes green-pulse{
+    0% {
+        color:cornsilk
+    }
+    50%{
+        color: lightgreen;
+
+    }
+    100%{
+        color: CornSilk;
+
+    }
+}
+@keyframes rollOver{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+} 

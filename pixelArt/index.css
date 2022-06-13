@@ -1,0 +1,26 @@
+#art{
+    display: table;
+    border-spacing: 1px;
+    background: black;
+    border: 5px solid black;
+}
+
+.row{
+    display: table-row;
+    width: 140px;
+   
+}
+
+.pixel{
+    display: table-cell;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+}
+
+.pen{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}

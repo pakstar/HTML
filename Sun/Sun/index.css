@@ -1,0 +1,46 @@
+
+
+html{
+    overflow: hidden;
+    height: 100%;
+}
+
+
+
+body{
+    margin: 0;
+    height: 100%;
+}
+
+#sky{
+  height: 50%;
+  background-color: lightblue;
+    position: absolute ;
+   width: 100%;
+}
+
+
+#sun2{
+   position: absolute;
+    height: 100px;
+    top: 0;
+    left: 45%;
+    text-shadow: 5px;
+    top: 0;
+    animation: sunrise 10s;
+}
+
+#sea{
+height: 50%;
+background-color: blue;
+position: absolute;
+bottom: 0;
+width: 100%;
+bottom: 0;
+}
+
+
+@keyframes sunrise {
+    0%{top: 90%;}
+100% {top:0%}
+}

@@ -1,0 +1,94 @@
+h1{
+    color: hotpink
+}
+
+
+video{
+    display: flex;
+margin-top: 10px;
+}
+p{
+    color: white;
+}
+#color{
+    display: inline-block;
+    
+    
+}
+.photo{
+    margin: 10px;
+   
+}
+.video{
+    align-items: stretch;
+}
+
+
+.li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: black;
+    border-radius: 5px;
+    border-color: blue;
+    border-style: solid;
+    background-color: purple;
+    color:white;
+    padding: 5px;
+text-decoration: none;
+}
+
+
+body{
+   
+    background-image: url(astrophotography-astronomy-starry-sky-starry-nigh.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+nav ul{
+    background-color: hotpink;
+    border-style: solid;
+    border-color: purple;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+#color{
+    background-color: purple;
+    border-radius: 10px;
+    border-style: solid ;
+    border-color: violet;
+   
+    display: block;
+}
+
+
+.assets{
+    display: inline-block
+}
+
+img{
+    border-radius:  100px;
+    border-color: violet;
+    border: solid;
+}
+
+
+video{
+    border-style: dotted;
+    border-color: violet;
+    display: block;
+}
+
+
+.a{
+    border: none;
+    text-decoration: none;
+    color: white;
+}

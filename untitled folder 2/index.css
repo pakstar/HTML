@@ -1,0 +1,23 @@
+a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+
+}
+
+#one {
+    color: white;
+   background-color: aqua;
+   width: 90px;
+   height: 60px;
+}
+
+
+
+#two {
+    color:white;
+   background-color: orange;
+   width: 90px;
+   height: 60px;
+}
