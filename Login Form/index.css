@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+body{
+    background-color:#927057 ;
+    text-emphasis-color:#ffffff;
+    color: aliceblue;
+    font-size: 20px; 
+    text-align: center;
+    padding:0px;
+    margin:0px;
+}
+main{
+    width: 470px;
+    margin: 5px auto 0;
+    padding: 50px 60px 70px 60px;
+   
+    text-align: center;
+}
+
+img{
+    border: 5px  solid #d5c395 ;
+    display: inline-block;
+  
+}
+
+input{
+    margin: 2px;
+    width: 50%;
+    height: 20px;
+}
+
+
+button{
+    background-color: #927057;
+    color: white;
+    margin: 10px;
+    position: relative;
+    display: inline block;
+    padding: 0.9rem 1.5rem 1.1rem;
+width: 50%;
+}
+
+#text{
+   
+    margin: 0;
+    background-color: #d5c395;
+   
+}
+
+.triangle{
+    display: flex;
+    margin: 0 auto ;
+   border: none;
+   height:50px;
+
+}
+
+
+.icon{
+    margin-right: 2px;
+    border: #927057 solid 2px;
+}

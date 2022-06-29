@@ -1,0 +1,67 @@
+@media screen and (max-width: 1200px){
+body #wrapper{
+    width: 100%;
+    padding-left: 1%;
+}
+
+}
+
+header{
+    width: 80%;
+    margin: 0 auto;
+}
+
+main{
+    width: 80%;
+}
+
+header > p {
+    font-size: 26px;
+    margin: 0 auto;
+    color: orange;
+    text-align: center;
+}
+
+
+
+body #wrapper > header nav ul li{
+    flex-flow: column;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    display: block;
+}
+
+body #wrapper > main section {
+width: 90%;
+}
+
+body #wrapper > main section div img {
+    flex-flow: column;
+    width: 80%;
+}
+
+
+body #wrapper > main section div article h3{
+    flex-flow: column;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+main > section > div > article > p {
+    padding-bottom: 10px;
+    margin: 0px;
+  
+}
+
+body #wrapper > main section div img {
+    flex-flow: column;
+    width: 95%;
+   
+}
+
+
+
+

@@ -27,4 +27,27 @@
 </div>
 <body onload="create(['Section 1', 'Section 2', 'Section 3', 'Section 4']);">
 <script>
-  function create(sentences) 
+  function create(sentences) {
+    var contentDiv = document.getElementById('content')
+
+  sentences.forEach((sent) => {
+    let div = document.createElement('div')
+    let paragraph = document.createElement('p')
+    paragraph.innerText = sent
+    paragraph.style.display = 'none';
+  
+
+  div.appendChild(paragraph);
+  
+  div.onclick = function(){
+    div.children[0].style.display='block';
+
+  }
+  contentDiv.appendChild(div);
+})
+  }
+  
+</script>
+</body>
+</html>
+  

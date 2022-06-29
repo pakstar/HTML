@@ -1,0 +1,137 @@
+.newspaper{
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.magazine1{
+    background-color: teal;
+    color: white;
+    font-family: Verdana;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.magazine2{
+    background-image: url(pink-pattern.png);
+    color: fuchsia;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+
+.rotateleft{
+    transform: rotate(-5deg);
+}
+
+.rotateright{
+    transform: rotate(5deg);
+}
+
+.skewleft{
+    transform: skewX(10deg);
+}
+.skewright{
+    transform: skewX(-10deg);
+}
+
+span{
+    display: inline-block;
+    margin: 8px;
+    box-shadow: 1px 2px 2px grey;
+    animation: bubble 5s;
+
+}
+body{
+    background-color: white;
+    padding: 30px;
+    max-width: 305px;
+margin: auto;
+
+}
+
+.medium{
+    font-size: 20px;
+    padding: 8px;
+}
+
+.big{
+    font-size: 40px;
+    padding: 15px;
+}
+
+.reallybig{
+    font-size: 40px;
+    padding: 15px;
+
+}
+
+@keyframes bubble{
+    0%
+    {
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    70%
+    {
+        opacity: 1;
+    
+    }
+    100%
+    {
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+    
+    }
+
+p span:nth-child(1)
+{
+    animation-delay: 2s;
+
+}
+
+p span:nth-child(2)
+{
+    animation-delay: 1s;
+
+}
+
+p span:nth-child(3)
+{
+    animation-delay: 3s;
+
+}
+
+p span:nth-child(1)
+{
+    animation-delay: 4.5s;
+
+}
+
+p span:nth-child(4)
+{
+    animation-delay: 3s;
+
+}
+
+p span:nth-child(5)
+{
+    animation-delay: 3s;
+
+}
+
+p span:nth-child(6)
+{
+    animation-delay: 6s;
+
+}
+
+p img:nth-child(7)
+{
+    animation-delay: 7s;
+
+}
